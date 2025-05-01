@@ -1,0 +1,86 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header */
+  header {
+    background-color: #004466;
+    color: white;
+    padding: 30px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.1em;
+  }
+  
+  /* Section layout */
+  section {
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  
+  section h2 {
+    margin-bottom: 15px;
+    color: #004466;
+    font-size: 1.5em;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  /* Chat section */
+  #chat-box {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    height: 180px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  }
+  
+  /* Footer */
+  footer {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    color: #666;
+  }
+  
+  footer a {
+    color: #004466;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
